@@ -1,0 +1,50 @@
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.section-hero {
+    background-color: #fce4ec; 
+    display: block;
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+.section-services {
+    background-color: #fff8e1; 
+    padding: 50px 0; 
+}
+
+.section-about {
+    background-color: #f3e5f5; 
+    padding: 50px 0;
+}
+
+.section-contact {
+    background-color: #e8f5e9; 
+    padding: 60px 0;
+}
+
+.carousel-caption.bg-dark {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.footer {
+    background-color: #ffccbc !important; 
+    color: #343a40 !important; 
+    padding: 15px 0;
+}
+
+section[id] {
+    scroll-margin-top: 85px;
+}
